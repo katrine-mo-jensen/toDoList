@@ -1,0 +1,12 @@
+@import './GlobalStyle.scss';
+*{
+  margin: 0;
+  padding: 0;
+}
+#root {
+  max-width: 1280px;
+  margin: auto;
+  text-align: center;
+  background-color: $Yellow;
+}
+

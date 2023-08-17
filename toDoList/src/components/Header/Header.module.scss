@@ -1,1 +1,11 @@
 @import '../../GlobalStyle.scss';
+
+.Header{
+    padding-bottom: 4rem;
+    h1{
+        font-family: $headerFont;
+        font-size: 5em;
+        font-weight: 300;
+        text-decoration: underline 3px;
+    }
+}
