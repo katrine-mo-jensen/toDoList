@@ -18,7 +18,7 @@ export function ToDoList() {
         {todoArray.map((item, index)=>
             <p key={index}>{item}</p>
         )}
-        <input placeholder={"Skriv dit navn her"} value={name} onChange={(event) => setName(event.target.value)} />
+        <input placeholder={"Tilføj en opgave"} value={name} onChange={(event) => setName(event.target.value)} />
         <button onClick={addToArray}>Add To Array</button>
         </>
     )
