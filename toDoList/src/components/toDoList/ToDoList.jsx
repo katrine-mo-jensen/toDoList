@@ -1,4 +1,4 @@
-import { useState } from "react"; 
+import { useState } from 'react';
 
 export function ToDoList() {
     const [todoArray, setToDoArray] = useState(['', ''])
@@ -22,6 +22,4 @@ export function ToDoList() {
         <button onClick={addToArray}>Add To Array</button>
         </>
     )
-
-
 }
