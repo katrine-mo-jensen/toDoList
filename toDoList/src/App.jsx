@@ -1,15 +1,15 @@
-import './App.scss'
-import { Header } from './components/Header/Header'
-import { AddTodo } from './components/toDoList/ToDoList'
+import "./App.scss";
+import { Header } from "./components/Header/Header";
+
+import { ToDoList } from "./components/toDoList/ToDoList";
 
 function App() {
-  
   return (
-    <div className='appContainer'>
+    <div className="appContainer">
       <Header />
-      <AddTodo/>
+      <ToDoList />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

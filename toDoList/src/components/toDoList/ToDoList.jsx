@@ -1,19 +1,11 @@
-import { useState } from 'react';
+import { useState } from "react"; 
 
-export function AddTodo({ onAddTodo }) {
-  const [title, setTitle] = useState('');
-  return (
+export function ToDoList() {
+    const [todo, setTodo] = useState('')
+    return (
     <>
-    <p>{title}</p>
-      <input
-        placeholder="Add todo"
-        value={title}
-        onChange={e => setTitle(e.target.value)}
-      />
-      <button onClick={() => {
-        setTitle('');
-        onAddTodo(title);
-      }}>Add</button>
+    <input type="text" onInput={event => setToDo(event.target.value)}/>
+    <button onClick={}></button>
     </>
-  )
+    )
 }
