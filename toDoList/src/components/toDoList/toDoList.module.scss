@@ -1,0 +1,24 @@
+.toDo {
+  max-width: 543px;
+  height: 100vh;
+  img {
+    width: 100%;
+  }
+  button {
+    background-color: #efd67f;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+  }
+
+  .theList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .inputAndAdd {
+    input {
+        background-color: #efd67f;
+        
+    }
+  }
+}
