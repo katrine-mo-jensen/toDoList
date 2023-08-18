@@ -17,11 +17,16 @@
   .theList {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+
     p {
       border-bottom: black 1px solid;
     }
   }
   .inputAndAdd {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     input {
       background-color: $Yellow;
     }
